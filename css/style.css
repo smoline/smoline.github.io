@@ -922,7 +922,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 12px;
 }
 
-.flexbox1 {
+.textline {
+  margin: 5px 0 0;
   display: flex;
   justify-content: space-between;
+}
+
+.textline1 {
+  padding-bottom: 100px;
 }
