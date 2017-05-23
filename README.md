@@ -1,5 +1,6 @@
 # Portfolio Site
-## This is the landing page for my portfolio
+## This is the landing page for my portfolio at http://sherilynmoline.me
+## This site is hosted on github pages at https://smoline.github.io
 
 * It contains:
   * links to the apps I created and deployed
