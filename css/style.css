@@ -667,6 +667,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
 }
 
+#resume .subscribe-text a {
+  color: #fff;
+}
+
 #resume .subscribe-text {
   color: #fff;
 }
