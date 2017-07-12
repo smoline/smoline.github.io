@@ -729,6 +729,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate3d(0, 0, 0);
 }
 
+@media screen and (max-width:991px) {
+
+}
+
 /* Projects Section
 --------------------------------*/
 #projects {
@@ -755,27 +759,63 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #projects .quote {
   position: relative;
-  /*background: #fff;*/
   padding: 20px;
   margin-top: 20px;
   font-size: 16px;
-  /*font-style: italic;*/
   border-radius: 5px;
 }
 
 #projects .quote b {
   display: inline-block;
   font-size: 22px;
-  /*left: -9px;*/
   position: relative;
-  /*top: -8px;*/
 }
 
 #projects .quote p {
   padding: 0;
-  /*right: -9px;*/
   position: relative;
-  /*top: 4px;*/
+}
+
+@media screen and (max-width:1199px) {
+  #projects .profile {
+    padding-top: 40px;
+  }
+
+  #projects .profile .pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 6px solid #dfdfdf;
+    overflow: hidden;
+    height: 225px;
+    width: 225px;
+  }
+
+  #projects .profile .pic img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:991px) {
+  #projects .profile {
+    padding-top: 20px;
+  }
+
+  #projects .profile .pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 6px solid #dfdfdf;
+    overflow: hidden;
+    height: 275px;
+    width: 275px;
+  }
+
+  #projects .profile .pic img {
+    max-width: 100%;
+  }
 }
 
 /* Team Section
@@ -826,6 +866,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+@media screen and (max-width:991px) {
+  #team .member .pic {
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+
+  #team .member .pic img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
 }
 
 /* Contact Section and Footer
@@ -921,25 +974,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .textline1 {
   padding-bottom: 100px;
-}
-
-@media screen and (max-width:1199px) {
-  #projects .profile {
-    text-align: center;
-    padding-top: 40px;
-  }
-
-  #projects .profile .pic {
-    border-radius: 30px;
-    border: 6px solid #dfdfdf;
-    overflow: hidden;
-    height: 225px;
-    width: 225px;
-  }
-
-  #projects .profile .pic img {
-    max-width: 100%;
-  }
 }
 
 @media screen and (max-width:768px) {
