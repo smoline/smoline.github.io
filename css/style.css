@@ -611,6 +611,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+
+#blog .imgbox3 {
+  height: 75px;
+  min-width: (100% - 40px);
+  background-image: url('../img/code7.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
 /* Subscribe Section
 --------------------------------*/
 #resume {
