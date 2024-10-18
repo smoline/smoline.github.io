@@ -187,6 +187,12 @@ h3 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.resume-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 2px solid red;
+}
+
 #header {
   background: #111;
   padding: 20px 0;
